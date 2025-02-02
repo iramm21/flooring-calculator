@@ -8,11 +8,13 @@ datasource db {
 }
 
 model User {
-  id        String  @id @default(uuid()) // Generates a unique ID
-  username  String  @unique
+  id        Int     @id @default(autoincrement())
   email     String  @unique
+  fullName  String
+  phone     String
+  address   String
   password  String
-  role      String  @default("user") // Can be "user" or "admin"
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  role      String @default("USER")
 }
+
+

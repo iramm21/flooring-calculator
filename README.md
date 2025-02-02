@@ -2,11 +2,11 @@
 
 ## 1. User Authentication
 
-- [ ] Implement user registration (username, email, password, role selection)
-- [ ] Implement user login with JWT authentication
+- [x] Implement user registration (username, email, password, role selection)
+- [x] Implement user login with JWT authentication
 - [ ] Create authentication middleware for protecting routes
 - [ ] Implement logout functionality
-- [ ] Create login and registration UI pages
+- [x] Create login and registration UI pages
 
 ## 2. User Dashboard
 
